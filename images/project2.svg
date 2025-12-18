@@ -1,0 +1,58 @@
+<!-- Project 2: Hour of AI - Classroom & AI Themed -->
+<svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="320" height="220" fill="url(#aiGradient)"/>
+  
+  <!-- Screen/Monitor -->
+  <rect x="40" y="30" width="120" height="90" fill="url(#screenGradient)" rx="5"/>
+  
+  <!-- AI Brain pattern on screen -->
+  <circle cx="70" cy="50" r="6" fill="#a855f7" opacity="0.9"/>
+  <circle cx="100" cy="55" r="6" fill="#a855f7" opacity="0.9"/>
+  <circle cx="130" cy="50" r="6" fill="#a855f7" opacity="0.9"/>
+  <circle cx="85" cy="75" r="6" fill="#14b8a6" opacity="0.9"/>
+  <circle cx="115" cy="75" r="6" fill="#14b8a6" opacity="0.9"/>
+  <circle cx="100" cy="95" r="5" fill="#fbbf24" opacity="0.9"/>
+  
+  <!-- Lines connecting nodes -->
+  <line x1="70" y1="50" x2="85" y2="75" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  <line x1="100" y1="55" x2="85" y2="75" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  <line x1="100" y1="55" x2="115" y2="75" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  <line x1="130" y1="50" x2="115" y2="75" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  <line x1="85" y1="75" x2="100" y2="95" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  <line x1="115" y1="75" x2="100" y2="95" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Students (circles) -->
+  <circle cx="180" cy="70" r="12" fill="#ffffff" opacity="0.8"/>
+  <circle cx="220" cy="80" r="12" fill="#ffffff" opacity="0.7"/>
+  <circle cx="250" cy="70" r="12" fill="#ffffff" opacity="0.75"/>
+  
+  <!-- Student heads -->
+  <circle cx="180" cy="65" r="4" fill="#fbbf24"/>
+  <circle cx="220" cy="75" r="4" fill="#fbbf24"/>
+  <circle cx="250" cy="65" r="4" fill="#fbbf24"/>
+  
+  <!-- Connecting lines to AI -->
+  <line x1="150" y1="70" x2="170" y2="70" stroke="#a855f7" stroke-width="2" opacity="0.6" stroke-dasharray="3,3"/>
+  <line x1="150" y1="70" x2="210" y2="80" stroke="#a855f7" stroke-width="2" opacity="0.6" stroke-dasharray="3,3"/>
+  <line x1="150" y1="70" x2="240" y2="70" stroke="#a855f7" stroke-width="2" opacity="0.6" stroke-dasharray="3,3"/>
+  
+  <!-- Certificate/Achievement icon -->
+  <rect x="200" y="140" width="50" height="50" fill="#fbbf24" rx="3" opacity="0.8" transform="rotate(-15 225 165)"/>
+  <text x="225" y="170" font-size="24" font-weight="bold" fill="#06b6d4" text-anchor="middle" dominant-baseline="middle">✓</text>
+  
+  <!-- Decorative stars -->
+  <text x="260" y="150" font-size="16" fill="#fbbf24" opacity="0.7">★</text>
+  <text x="50" y="160" font-size="12" fill="#a855f7" opacity="0.6">★</text>
+</svg>
